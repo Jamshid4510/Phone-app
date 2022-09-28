@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.AddPhoneActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#E5F96F"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="Add Phone"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_phone_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_weight="1"
+        android:background="#DED7D7"
+        android:hint="Phone name"
+        android:layout_marginVertical="16dp"
+        android:paddingHorizontal="16dp" />
+
+    <EditText
+        android:id="@+id/et_phone_features"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_weight="7"
+        android:background="#DED7D7"
+        android:hint="Phone features"
+        android:gravity="top"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:paddingHorizontal="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="end"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="#E5F96F"
+            android:layout_marginEnd="24dp"
+            android:text="Add"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
